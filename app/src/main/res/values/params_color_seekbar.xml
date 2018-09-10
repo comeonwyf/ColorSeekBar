@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="ColorSeekBar">
+        
+        <!--起始颜色-->
+        <attr name="seekbar_start_color" format="color"/>
+        <!--结束颜色-->
+        <attr name="seekbar_end_color" format="color"/>
+        <!--是否能拖动-->
+        <attr name="can_move" format="boolean"/>
+        
+    </declare-styleable>
+    
+    <color name="colorSeekBar_start_color">#999999</color>
+    <color name="colorSeekBar_end_color">#333333</color>
+    
+</resources>
