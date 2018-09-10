@@ -22,12 +22,13 @@ public class MainActivity extends AppCompatActivity {
         colorSeekBar.setOnStateChangeListener(new ColorSeekBar.OnStateChangeListener() {
             @Override
             public void OnStateChangeListener(float progress) {
-                Log.e("print", "OnStateChangeListener: "+progress );
+                Log.e("print", "进度: "+progress );
+                
             }
 
             @Override
             public void onStopTrackingTouch(float progress) {
-                Log.e("print", "onStopTrackingTouch: "+progress );
+                Log.e("print", "进度: "+progress );
             }
         });
         
