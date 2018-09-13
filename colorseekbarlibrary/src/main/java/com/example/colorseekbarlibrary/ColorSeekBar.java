@@ -1,4 +1,4 @@
-package com.example.administrator.colorseekbar;
+package com.example.colorseekbarlibrary;
 
 import android.content.Context;
 import android.content.res.TypedArray;

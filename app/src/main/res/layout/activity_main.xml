@@ -6,13 +6,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
     
-    <com.example.administrator.colorseekbar.ColorSeekBar
+    <com.example.colorseekbarlibrary.ColorSeekBar
         android:id="@+id/colorSeekBar"
         android:layout_margin="20dp"
         android:layout_width="match_parent"
         android:layout_height="5dp" />
 
-    <com.example.administrator.colorseekbar.ColorSeekBar
+    <com.example.colorseekbarlibrary.ColorSeekBar
         android:id="@+id/colorSeekBar1"
         android:layout_margin="20dp"
         android:layout_width="match_parent"
