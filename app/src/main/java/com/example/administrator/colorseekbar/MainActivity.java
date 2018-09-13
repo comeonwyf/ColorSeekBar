@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void OnStateChangeListener(float progress) {
                 Log.e("print", "进度: "+progress );
-                
             }
 
             @Override
